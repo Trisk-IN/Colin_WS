@@ -1,0 +1,28 @@
+📢 **Relatório de Alertas – Fazenda WS (20/06/2025)**  
+
+🚜 **Máquinas com Alertas**  
+Modelos: FROTA 214, 215, 217  
+Total: 31  
+
+🟡 **Risco MÉDIO**  
+⚠ **FROTA 217**  
+- Dados de posição indisponíveis (7h, 9h, 10h, 11h)  
+- Operador não sentado (9h)  
+Impacto: Monitoramento comprometido.  
+Ação: Reiniciar sistemas e verificar conexões.  
+
+⚠ **FROTA 215**  
+- Parar máquina (9h, 11h)  
+- Operador não sentado (10h, 11h, 13h)  
+- Perda de comunicação do sensor de produtividade (11h)  
+Impacto: Precisão reduzida.  
+Ação: Verificar sistemas e reiniciar.  
+
+⚠ **FROTA 214**  
+- Operador não sentado (9h)  
+- Dados de posição indisponíveis (11h)  
+- Luz de alerta direita: corrente abaixo do normal (10h)  
+Impacto: Operação comprometida.  
+Ação: Verificar assento e conexões.  
+
+Priorize ações para segurança e eficiência.

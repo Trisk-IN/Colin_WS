@@ -1,0 +1,22 @@
+**🌦 Clima em Alta Floresta/MT**  
+Temperatura: 35.7°C (máx) / 23.6°C (mín)  
+Previsão: Céu limpo (0% chuva). Amanhã continua estável, ideal para colheita.  
+
+**📊 Resumo Operacional**  
+3 máquinas ativas:  
+- *3 COLHEDEIRAS (AXIAL-FLOW® 7250/8230/8250)* - 90% a 100% combustível  
+Todas operando sem tempo ocioso.  
+
+**⚠ Alertas de Ontem**  
+- *AXIAL-FLOW® 7250 (FROTA 215)*: 21 alertas (sensor de produtividade, freio ativado).  
+- *AXIAL-FLOW® 8230 (FROTA 217)*: 7 alertas (voltagem crítica, vermelho).  
+- *AXIAL-FLOW® 8250 (FROTA 214)*: 9 alertas (falha no filtro de combustível).  
+
+**✅ Dicas para Hoje**  
+- Priorizar revisão elétrica na FROTA 217 (urgente).  
+- Trocar filtro de combustível na FROTA 214.  
+- Calibrar sensores da FROTA 215.  
+- Aproveitar clima seco para avançar na colheita.  
+
+**🚜 Eficiência**  
+100% das máquinas ativas. Bom ritmo!

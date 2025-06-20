@@ -1,0 +1,22 @@
+**🌦 Clima em Alta Floresta/MT**  
+35.7°C, céu limpo (0% chuva). Amanhã continua limpo - clima perfeito pra colheita!  
+
+*📊 Resumo Operacional*  
+4 máquinas ativas:  
+- 1 TRATOR (FROTA 213) - 67% diesel  
+- 3 COLHEDEIRAS (FROTA 214/215/217) - 90% a 100% diesel  
+Todas operando sem tempo ocioso!  
+
+*⚠️ Alertas*  
+- FROTA 215: 12 alertas (reversor, sensor de produtividade)  
+- FROTA 217: 18 alertas (dados de posição, comunicação)  
+- FROTA 214: 7 alertas (luz de alerta, operador não sentado)  
+
+*✅ Dicas para Amanhã*  
+- Monitorar FROTA 213 (67% diesel).  
+- Verificar alertas de posição na FROTA 217.  
+- Checar luz de alerta na FROTA 214.  
+- Aproveitar o clima seco pra máxima eficiência!  
+
+*🚜 Eficiência*  
+100% operacional - bora render!

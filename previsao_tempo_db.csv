@@ -1,0 +1,11 @@
+﻿data_previsao,periodo_dia,condicao_climatica,probabilidade_chuva,tipo_precipitacao,cobertura_nuvens,umidade_relativa,temperatura_maxima,velocidade_vento,temperatura_minima
+2025-06-16,Diurno,Predominantemente nublado,10,CHUVA,88,47,NULL,18,NULL
+2025-06-16,Noturno,Céu limpo,0,CHUVA,0,79,NULL,11,NULL
+2025-06-17,Diurno,Ensolarado,0,CHUVA,19,46,NULL,13,NULL
+2025-06-17,Noturno,Céu limpo,0,CHUVA,28,73,NULL,10,NULL
+2025-06-18,Diurno,Ensolarado,5,CHUVA,60,44,NULL,11,NULL
+2025-06-18,Noturno,Céu limpo com nuvens periódicas,0,CHUVA,20,74,NULL,11,NULL
+2025-06-19,Diurno,Parcialmente ensolarado,0,CHUVA,31,47,NULL,10,NULL
+2025-06-19,Noturno,Céu limpo com nuvens periódicas,0,CHUVA,35,73,NULL,10,NULL
+2025-06-20,Diurno,Predominantemente ensolarado,0,CHUVA,31,45,NULL,11,NULL
+2025-06-20,Noturno,Céu limpo com nuvens periódicas,0,CHUVA,22,69,NULL,10,NULL

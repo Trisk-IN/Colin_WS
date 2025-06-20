@@ -1,0 +1,24 @@
+📢 **Relatório Diário – Fazenda WS (11/04/2025)**
+
+🚜 Máquinas com Alertas Importantes
+
+Modelos envolvidos: PV 4730, 4040DN, S780
+Total de Alertas: 3
+
+🔴 Risco ALTO
+
+⚠ 4040DN – Falha crítica no sistema hidráulico (1 registro às 10h)
+Impacto: Pode resultar em perda de controle operacional e riscos à segurança da equipe.
+Ação recomendada: Intervenção imediata e verificação completa do sistema hidráulico.
+
+🟡 Risco MÉDIO
+
+⚠ PV 4730 – Falha no sistema elétrico (1 registro às 10h)
+Impacto: Potencial para instabilidade ou paralisação temporária da máquina.
+Ação recomendada: Inspeção detalhada e diagnóstico do sistema elétrico.
+
+⚠ S780 – Alerta genérico (1 registro às 10h)
+Impacto: Indicação de anomalias que podem afetar o desempenho.
+Ação recomendada: Monitoramento contínuo e análise detalhada das operações da máquina.
+
+Fique atento às recomendações e priorize as intervenções necessárias para garantir a segurança e eficiência das operações.
