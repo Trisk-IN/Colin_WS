@@ -1,0 +1,46 @@
+name: Continuous Deployment
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, Linux, X64]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@master
+        with:
+          timeout: 60m
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          envs: GITHUB_RUN_NUMBER
+          script: |
+            set -euo pipefail
+
+            echo "Iniciando processo de deploy..."
+            cd /usr/local/projetos/Colin_WS
+
+            echo "Atualizando repositório..."
+            git pull origin main
+            REPO_NAME=$(basename $(git config --get remote.origin.url) .git)
+            IMAGE_TAG="${REPO_NAME}:${GITHUB_RUN_NUMBER}"
+
+            echo "Buildando imagem Docker com tag ${IMAGE_TAG}..."
+            docker build -t ${IMAGE_TAG} .
+
+            echo "Salvando imagem Docker como tarball..."
+            docker save ${IMAGE_TAG} -o /tmp/${REPO_NAME}-${GITHUB_RUN_NUMBER}.tar
+
+            echo "Enviando imagem para HDFS..."
+            curl -L -X PUT -T /tmp/${REPO_NAME}-${GITHUB_RUN_NUMBER}.tar "http://172.21.0.142:9870/webhdfs/v1/images/${REPO_NAME}-${GITHUB_RUN_NUMBER}.tar?op=CREATE&user.name=engdados&overwrite=true"
+
+            echo "Limpando arquivos temporários..."
+            rm /tmp/${REPO_NAME}-${GITHUB_RUN_NUMBER}.tar
+            docker image prune -a -f
+
+            echo "Deploy finalizado com sucesso!"
