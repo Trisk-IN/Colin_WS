@@ -1,0 +1,6 @@
+# Um .dockerignore é um arquivo de configuração que descreve arquivos e diretórios que você deseja excluir ao criar uma imagem do Docker.
+*.pyc
+__pycache__
+.git
+.env
+venv/
