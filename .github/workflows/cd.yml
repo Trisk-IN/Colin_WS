@@ -2,7 +2,7 @@ name: Continuous Deployment
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   deploy:
@@ -26,7 +26,7 @@ jobs:
             cd /usr/local/projetos/Colin_WS
 
             echo "Atualizando repositório..."
-            git pull origin master
+            git pull origin main
             REPO_NAME=$(basename $(git config --get remote.origin.url) .git)
             IMAGE_TAG="${REPO_NAME}:${GITHUB_RUN_NUMBER}"
 
